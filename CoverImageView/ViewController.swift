@@ -12,7 +12,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let cover = CoverImageView(cover: "cover", frame: view.frame)
+        view.addSubview(cover)
     }
 
     override func didReceiveMemoryWarning() {
